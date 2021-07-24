@@ -25,3 +25,12 @@ Test data which consists of total 6493 data samples with 10 features
 10. registered : Number of registered user
 11. count : Predictive feature: have to count number of rentals for that day
 
+## Implementation approach
+1. At the start i have imported required python3 libraries and then i'm reading provided data. i.e. train, test, sample submission.
+2. While reading data i have converted datetime column to datetime64 format so that i can use it as a feature instead of index. This datetime column is now divided into 5 features year-month-day-hour-weekday. Applied this same on test data also.
+3. Now preprocessing and data visualization methods are used to deal with the data.
+4. From the data i have observed that registered and unregistered customers are forming linear relation with prediction label count. So to remove linearity i have deleted both the columns.
+5. After that i have used logarithmic trasnformation to manage the skewness of count variable.
+6. To train the model I have used random forest regression algorithm along the bagging regressor with 15 estimators.
+7. After trainning model result is predicted and then using antilog to convert back into main format.
+8. This predicted result gives the Root Mean Squared Logarithmic Error (RMSLE) value of 0.4830
