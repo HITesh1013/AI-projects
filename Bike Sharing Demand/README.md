@@ -38,9 +38,9 @@ Test data consists of total of 6493 data samples with 10 features
 9. Predicted result gives the Root Mean Squared Logarithmic Error (RMSLE) value of 0.42830 for random Forest and 0.39621 for XGBoost which is comparatively better than all others.
 
 ## Result with diffeent models
-1. XGBoost with grid search: 0.39621
+1. XGBoost with grid search : 0.39621
 2. XGBoost without grid search : 0.42375
-3. Random forest with grid Search and bagging: 0.42830
+3. Random forest with grid Search and bagging : 0.42830
 4. Random forest without bagging : 0.43912
 5. Decision tree : 0.49613
 6. Linear Regression : 1.44315
