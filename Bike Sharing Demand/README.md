@@ -10,7 +10,8 @@ Test data consists of total of 6493 data samples with 10 features
 
 ## Features
 1. Datetime: Deatetime feature indicates on which date the bike took on rent. It consists of an hourly date and timestamp.
-2. Season:  Season feature indicates in which season bike was taken on rent. Season feature consists of 4 labels: spring - 1; Summer - 2; Fall - 3; Winter - 4.
+2. Season:  Season feature indicates in which season bike was taken on rent. Season feature consists of 4 labels: </br> 
+            spring - 1; Summer - 2; Fall - 3; Winter - 4.
 3. Holiday: That particular date is a holiday or not: Holiday: 1; Not Holiday : 0
 4. Weather: This feature indicates the weather of that particular season. It consists of 4 label </br>
    a. Clear, Few clouds, Partly cloudy, Partly cloudy </br>
@@ -37,7 +38,7 @@ Test data consists of total of 6493 data samples with 10 features
 8. After training model result is predicted and then using antilog to convert back into the main format.
 9. Predicted result gives the Root Mean Squared Logarithmic Error (RMSLE) value of 0.42830 for random Forest and 0.39621 for XGBoost which is comparatively better than all others.
 
-## Result with diffeent models
+## Result with different models
 1. XGBoost with grid search : 0.39621
 2. XGBoost without grid search : 0.42375
 3. Random forest with grid Search and bagging : 0.42830
