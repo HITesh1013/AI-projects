@@ -13,9 +13,9 @@ Test data consists of total of 6493 data samples with 10 features
 2. Season:  Season feature indicates in which season bike was taken on rent. Season feature consists of 4 labels: spring - 1; Summer - 2; Fall - 3; Winter - 4.
 3. Holiday: That particular date is a holiday or not: Holiday: 1; Not Holiday : 0
 4. Weather: This feature indicates the weather of that particular season. It consists of 4 label </br>
-   a. Clear, Few clouds, Partly cloudy, Partly cloudy
-   b: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
-   c: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+   a. Clear, Few clouds, Partly cloudy, Partly cloudy </br>
+   b: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist </br>
+   c: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds </br>
    d: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
 5. Temp:  Temperature of a particular day in degree Celcius
 6. atemp: Temperature of air in degree Celcius
